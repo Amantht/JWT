@@ -54,6 +54,7 @@ app. get ('/api/protected', ensureToken, function(req, res){
         res.sendStatus(403);
         }
     }
+    
 app.listen(PORT,function(){
-    console.log('App listening to port ${PORT}'.bgRed);
+    console.log(`App listening to port ${PORT}`.bgRed);
 });
