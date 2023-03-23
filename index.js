@@ -1,3 +1,4 @@
+var colors= require('colors')
 var dotenv =require('dotenv')
 var express = require('express')
 var jwt=require('jsonwebtoken')
@@ -54,5 +55,5 @@ app. get ('/api/protected', ensureToken, function(req, res){
         }
     }
 app.listen(PORT,function(){
-    console.log("App listening to port 8081");
+    console.log('App listening to port ${PORT}'.bgRed);
 });
