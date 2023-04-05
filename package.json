@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "baby": "nodemon --watch index.js"
+    "dev": "nodemon --watch index.js"
   },
   "author": "",
   "license": "ISC",
